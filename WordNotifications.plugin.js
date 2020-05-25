@@ -1,8 +1,10 @@
-//META{"name":"WordNotifications"}*//
+//META{"name":"WordNotifications","website":"https://github.com/policetonyR/WordNotifications","source":"https://raw.githubusercontent.com/policetonyR/WordNotifications/master/WordNotifications.plugin.js"}*//
 
 // !!! Hey there! If you didn't come here from the BetterDiscord Discord server ( https://discord.gg/2HScm8j )  !!! //
 // !!! then please do not use whatever you were using that led you here, getting plugins from places other than !!! //
 // !!! the #plugin repo channel in the BD server can be dangerous, as they can be malicious and do bad things.  !!! //
+
+// testing update auto
 
 class WordNotifications {
     getName() {
