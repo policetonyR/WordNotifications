@@ -86,8 +86,8 @@ class WordNotifications {
         const words = document.createElement('textarea');
         const ignoreT = document.createElement('h6');
         const ignore = document.createElement('textarea');
-		const userignoreT = document.createElement('h6');
-		const userignore = document.createElement('textarea');
+	const userignoreT = document.createElement('h6');
+	const userignore = document.createElement('textarea');
         const br = document.createElement('br');
         const button = document.createElement('button');
         button.innerText = 'Apply';
