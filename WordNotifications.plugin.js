@@ -111,8 +111,8 @@ class WordNotifications {
         ignore.style.minHeight = '6ch';
         ignore.style.color = 'black';
         ignore.style.backgroundColor = 'white';
-		// ** added code
-		userignoreT.innerText = 'Ignored Users';
+	// ** added code
+	userignoreT.innerText = 'Ignored Users';
         userignoreT.style.marginTop = '0.5ch';
         userignoreT.style.marginBottom = '0.25ch';
         userignore.placeholder = '(Optional) List of user IDs to ignore (e.g. "86004744966914048, 280806472928198656")';
