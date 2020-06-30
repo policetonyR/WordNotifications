@@ -29,7 +29,7 @@ class WordNotifications {
         this.cancelPatch = BdApi.monkeyPatch(BdApi.findModuleByProps("dispatch"), 'dispatch', { after: this.dispatch.bind(this) });
         this.words = BdApi.loadData('WordNotifications', 'words') || [];
         this.blacklist = BdApi.loadData('WordNotifications', 'blacklist') || [];
-		this.userbl = BdApi.loadData('WordNotifications', 'userbl') || [];
+	this.userbl = BdApi.loadData('WordNotifications', 'userbl') || [];
     }
     stop() {
         this.cancelPatch();
@@ -135,8 +135,8 @@ class WordNotifications {
         div.appendChild(words);
         div.appendChild(ignoreT);
         div.appendChild(ignore);
-		div.appendChild(userignoreT);
-		div.appendChild(userignore);
+	div.appendChild(userignoreT);
+	div.appendChild(userignore);
         div.appendChild(br);
         div.appendChild(button);
         return div;
