@@ -45,8 +45,8 @@ class WordNotifications {
         const message = data.methodArguments[0].message;
         if (this.blacklist.includes(message.guild_id))
             return;
-		if (this.userbl.includes(message.author.id))
-			return;
+	if (this.userbl.includes(message.author.id))
+	    return;
         if (this.currentChannel() === message.channel_id && require('electron').remote.getCurrentWindow().isFocused())
             return;
         //if (this.isMuted(message.guild_id, message.channel_id))
